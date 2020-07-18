@@ -35,8 +35,10 @@ displayNames.forEach(names);
 The zoos need a list of all their animal's names (animal_name only) converted to lower case. Using map, create a new array of strings named lowCaseAnimalNames, each string following this pattern: "jackal, asiatic". Log the resut.
 
 */
-
-const lowCaseAnimalNames
+function get_animal_name(name){
+  name
+}
+const lowCaseAnimalNames 
 console.log(lowCaseAnimalNames);
 
 /* Request 3: .filter() 
@@ -65,6 +67,9 @@ console.log(populationTotal);
   * The consume function should return the invocation of cb, passing a and b into cb as arguments
 */
 
+function consume (a, b, cb){
+  return cb(a,b);
+}
 
 /* Step 2: Create several functions to callback with consume();
   * Create a function named add that returns the sum of two numbers
