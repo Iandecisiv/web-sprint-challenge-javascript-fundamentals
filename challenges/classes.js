@@ -28,14 +28,14 @@ class CubeMaker extends CuboidMaker{
         super(length, length, length);
     }
     cube_volume(){
-        return this.length * this.length * this.length;
+        return (this.length * this.length * this.length);
     }
     cube_surface_area(){
         return 6 * (this.length * this.length);
     }
 }
 
-const cube = new CubeMaker(4);
+const cube = new CubeMaker(5);
 
 console.log(cube.cube_volume());
 console.log(cube.cube_surface_area());
